@@ -185,11 +185,11 @@ if let car4 = SportCar(carBrand: "HoNDA", yearOfManufacture: -99, isOpenWindows:
    print("Ошибка инициализации.  Экземпляр не создался. Введите корректные данные.")
 }
 
-if var car4 = SportCar(carBrand: "HoNDA", yearOfManufacture: 1988, isOpenWindows: true, volumeTrunk: 300, isOnMotor: false){
-    car4.operat(typeOfAction: .motor(actionWithMotor: .on))
-    car4.operat(typeOfAction: .cargo(actionWithCargo: .load(volume: 200)))
-    car4.operat(typeOfAction: .cargo(actionWithCargo: .unload(volume: 150)))
-    car4.printCar()
+if var car5 = SportCar(carBrand: "HoNDA", yearOfManufacture: 1988, isOpenWindows: true, volumeTrunk: 300, isOnMotor: false){
+    car5.operat(typeOfAction: .motor(actionWithMotor: .on))
+    car5.operat(typeOfAction: .cargo(actionWithCargo: .load(volume: 200)))
+    car5.operat(typeOfAction: .cargo(actionWithCargo: .unload(volume: 150)))
+    car5.printCar()
 } else{
    print("Ошибка инициализации.  Экземпляр не создался. Введите корректные данные.")
 }

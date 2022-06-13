@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B4E36AC328504AA00080F4B9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E36AC228504AA00080F4B9 /* main.swift */; };
-		B4E36ACA285050440080F4B9 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E36AC9285050440080F4B9 /* Queue.swift */; };
+		B4AD2A7428537AD4003D6099 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AD2A7328537AD4003D6099 /* main.swift */; };
+		B4AD2A7B28538793003D6099 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AD2A7A28538793003D6099 /* Enums.swift */; };
+		B4AD2A9A28564A0B003D6099 /* Class_Breakfast.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AD2A9928564A0B003D6099 /* Class_Breakfast.swift */; };
+		B4AD2A9C28564A4E003D6099 /* Structure_Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AD2A9B28564A4E003D6099 /* Structure_Meal.swift */; };
+		B4AD2A9E28564A70003D6099 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AD2A9D28564A70003D6099 /* Protocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		B4E36ABD28504AA00080F4B9 /* CopyFiles */ = {
+		B4AD2A6E28537AD4003D6099 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,13 +27,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B4E36ABF28504AA00080F4B9 /* 6_Русских_Елена */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "6_Русских_Елена"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4E36AC228504AA00080F4B9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		B4E36AC9285050440080F4B9 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		B4AD2A7028537AD4003D6099 /* 7_Русских_Елена */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "7_Русских_Елена"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4AD2A7328537AD4003D6099 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B4AD2A7A28538793003D6099 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		B4AD2A9928564A0B003D6099 /* Class_Breakfast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class_Breakfast.swift; sourceTree = "<group>"; };
+		B4AD2A9B28564A4E003D6099 /* Structure_Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structure_Meal.swift; sourceTree = "<group>"; };
+		B4AD2A9D28564A70003D6099 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B4E36ABC28504AA00080F4B9 /* Frameworks */ = {
+		B4AD2A6D28537AD4003D6099 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,67 +46,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B4E36AB628504A9F0080F4B9 = {
+		B4AD2A6728537AD4003D6099 = {
 			isa = PBXGroup;
 			children = (
-				B4E36AC128504AA00080F4B9 /* 6_Русских_Елена */,
-				B4E36AC028504AA00080F4B9 /* Products */,
+				B4AD2A7228537AD4003D6099 /* 7_Русских_Елена */,
+				B4AD2A7128537AD4003D6099 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B4E36AC028504AA00080F4B9 /* Products */ = {
+		B4AD2A7128537AD4003D6099 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B4E36ABF28504AA00080F4B9 /* 6_Русских_Елена */,
+				B4AD2A7028537AD4003D6099 /* 7_Русских_Елена */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B4E36AC128504AA00080F4B9 /* 6_Русских_Елена */ = {
+		B4AD2A7228537AD4003D6099 /* 7_Русских_Елена */ = {
 			isa = PBXGroup;
 			children = (
-				B4E36AC228504AA00080F4B9 /* main.swift */,
-				B4E36AC9285050440080F4B9 /* Queue.swift */,
+				B4AD2A7328537AD4003D6099 /* main.swift */,
+				B4AD2A7A28538793003D6099 /* Enums.swift */,
+				B4AD2A9928564A0B003D6099 /* Class_Breakfast.swift */,
+				B4AD2A9D28564A70003D6099 /* Protocol.swift */,
+				B4AD2A9B28564A4E003D6099 /* Structure_Meal.swift */,
 			);
-			path = "6_Русских_Елена";
+			path = "7_Русских_Елена";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B4E36ABE28504AA00080F4B9 /* 6_Русских_Елена */ = {
+		B4AD2A6F28537AD4003D6099 /* 7_Русских_Елена */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B4E36AC628504AA00080F4B9 /* Build configuration list for PBXNativeTarget "6_Русских_Елена" */;
+			buildConfigurationList = B4AD2A7728537AD4003D6099 /* Build configuration list for PBXNativeTarget "7_Русских_Елена" */;
 			buildPhases = (
-				B4E36ABB28504AA00080F4B9 /* Sources */,
-				B4E36ABC28504AA00080F4B9 /* Frameworks */,
-				B4E36ABD28504AA00080F4B9 /* CopyFiles */,
+				B4AD2A6C28537AD4003D6099 /* Sources */,
+				B4AD2A6D28537AD4003D6099 /* Frameworks */,
+				B4AD2A6E28537AD4003D6099 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "6_Русских_Елена";
-			productName = "6_Русских_Елена";
-			productReference = B4E36ABF28504AA00080F4B9 /* 6_Русских_Елена */;
+			name = "7_Русских_Елена";
+			productName = "7_Русских_Елена";
+			productReference = B4AD2A7028537AD4003D6099 /* 7_Русских_Елена */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B4E36AB728504A9F0080F4B9 /* Project object */ = {
+		B4AD2A6828537AD4003D6099 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					B4E36ABE28504AA00080F4B9 = {
+					B4AD2A6F28537AD4003D6099 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
-			buildConfigurationList = B4E36ABA28504A9F0080F4B9 /* Build configuration list for PBXProject "6_Русских_Елена" */;
+			buildConfigurationList = B4AD2A6B28537AD4003D6099 /* Build configuration list for PBXProject "7_Русских_Елена" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -108,30 +117,33 @@
 				en,
 				Base,
 			);
-			mainGroup = B4E36AB628504A9F0080F4B9;
-			productRefGroup = B4E36AC028504AA00080F4B9 /* Products */;
+			mainGroup = B4AD2A6728537AD4003D6099;
+			productRefGroup = B4AD2A7128537AD4003D6099 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B4E36ABE28504AA00080F4B9 /* 6_Русских_Елена */,
+				B4AD2A6F28537AD4003D6099 /* 7_Русских_Елена */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B4E36ABB28504AA00080F4B9 /* Sources */ = {
+		B4AD2A6C28537AD4003D6099 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4E36AC328504AA00080F4B9 /* main.swift in Sources */,
-				B4E36ACA285050440080F4B9 /* Queue.swift in Sources */,
+				B4AD2A9A28564A0B003D6099 /* Class_Breakfast.swift in Sources */,
+				B4AD2A9C28564A4E003D6099 /* Structure_Meal.swift in Sources */,
+				B4AD2A7B28538793003D6099 /* Enums.swift in Sources */,
+				B4AD2A7428537AD4003D6099 /* main.swift in Sources */,
+				B4AD2A9E28564A70003D6099 /* Protocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		B4E36AC428504AA00080F4B9 /* Debug */ = {
+		B4AD2A7528537AD4003D6099 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -191,7 +203,7 @@
 			};
 			name = Debug;
 		};
-		B4E36AC528504AA00080F4B9 /* Release */ = {
+		B4AD2A7628537AD4003D6099 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -244,7 +256,7 @@
 			};
 			name = Release;
 		};
-		B4E36AC728504AA00080F4B9 /* Debug */ = {
+		B4AD2A7828537AD4003D6099 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -253,7 +265,7 @@
 			};
 			name = Debug;
 		};
-		B4E36AC828504AA00080F4B9 /* Release */ = {
+		B4AD2A7928537AD4003D6099 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -265,25 +277,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B4E36ABA28504A9F0080F4B9 /* Build configuration list for PBXProject "6_Русских_Елена" */ = {
+		B4AD2A6B28537AD4003D6099 /* Build configuration list for PBXProject "7_Русских_Елена" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4E36AC428504AA00080F4B9 /* Debug */,
-				B4E36AC528504AA00080F4B9 /* Release */,
+				B4AD2A7528537AD4003D6099 /* Debug */,
+				B4AD2A7628537AD4003D6099 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B4E36AC628504AA00080F4B9 /* Build configuration list for PBXNativeTarget "6_Русских_Елена" */ = {
+		B4AD2A7728537AD4003D6099 /* Build configuration list for PBXNativeTarget "7_Русских_Елена" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4E36AC728504AA00080F4B9 /* Debug */,
-				B4E36AC828504AA00080F4B9 /* Release */,
+				B4AD2A7828537AD4003D6099 /* Debug */,
+				B4AD2A7928537AD4003D6099 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B4E36AB728504A9F0080F4B9 /* Project object */;
+	rootObject = B4AD2A6828537AD4003D6099 /* Project object */;
 }
